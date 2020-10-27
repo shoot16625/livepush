@@ -1,0 +1,15 @@
+version: '2'
+services:
+  app:
+    build:
+      context: ./Go
+      dockerfile: Dockerfile.dev
+    volumes:
+      - "./Go:/go/src/app"
+    container_name: go_livepush
+    env_file:
+      - dev.env
+    ports:
+      - "36000:8080"
+    tty: true
+    restart: always

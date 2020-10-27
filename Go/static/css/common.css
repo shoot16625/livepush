@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.area-center {
+  text-align: center;
+}
+
+.area-left {
+    text-align: left;
+    float: left;
+  }
+  
+  .area-right {
+    text-align: right;
+  }
+  
+  .area-right-float {
+    text-align: right;
+    float: right;
+  }
+
+  .comment-list-header-font {
+    font-size: 12px;
+  }
+  .comment-list-content-font {
+    font-size: 14px;
+  }
+
+  .list-margin {
+    margin: 0px 3px 0px 3px;
+  }
+  .list-margin-bottom {
+    margin-bottom: 5px;
+  }

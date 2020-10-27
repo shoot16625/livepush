@@ -1,0 +1,9 @@
+# shijimi
+/Go/swagger/
+/Go/app
+/Go/conf
+/Go/serviceAccountKey.json
+/prod.env
+/dev.env
+node_modules
+README-tmp.md

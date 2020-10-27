@@ -1,0 +1,26 @@
+{
+    "lang": "ja",
+    "name": "livepush - テレビの見逃しを防いでくれるプッシュ通知サービス",
+    "short_name": "livepush",
+    "icons": [
+        {
+            "src": "/static/img/bell-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/img/bell-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/static/img/bell-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#fafafa",
+    "gcm_sender_id": "103953800507"
+}
